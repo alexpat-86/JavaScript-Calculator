@@ -1,0 +1,236 @@
+html, body {margin: 1px; ;height: 100%; overflow: hidden;}
+
+* {
+  touch-action: none;
+	font-family: Bebas;
+}
+
+@font-face {
+  font-family: Bebas;
+  src: url(BebasNeue-Regular.ttf);
+}
+
+#display {
+	position: fixed;
+	border: none;
+	height: 100px;
+	width: 98%;
+	background-color: black;	
+}
+
+.keys {
+	position: fixed;
+	border: none;
+	top: 30%;
+	height: 400px;
+	width: 98%;
+}
+
+h1 {
+	text-align: center;
+	font-family: Bebas;
+}
+
+#result {
+	position: fixed;
+	border: none;
+	width: 98%;
+	height: 100px;
+	right: 2%;
+	top: 8%;
+	font-size: 50px;
+	text-align: right;
+	color: white;
+	font-family: Bebas;
+	padding-right: 5px;
+}
+
+#num1 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 66%;
+	left: 0%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num2 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 66%;
+	left: 104px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num3 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 66%;
+	left: 208px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num4 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 54%;
+	left: 0%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num5 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 54%;
+	left: 104px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num6 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 54%;
+	left: 208px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num7 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 42%;
+	left: 0%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num8 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 42%;
+	left: 104px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#num9 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	top: 42%;
+	left: 208px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#times {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	left: 0%;
+	font-size: 30px;
+	text-align: center;
+	background-color: grey;
+}
+
+#minus {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	left: 50%;
+	font-size: 30px;
+	text-align: center;
+	background-color: grey;
+}
+
+#plus {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	left: 75%;
+	font-size: 30px;
+	text-align: center;
+	background-color: grey;
+}
+
+#divide {
+	position: fixed;
+	border: 1px solid #999;
+	height: 80px;
+	width: 100px;
+	left: 25%;
+	font-size: 30px;
+	text-align: center;
+	background-color: grey;
+}
+	
+#equals {
+	position: fixed;
+	border: 1px solid #999;
+	height: 316px;
+	width: 100px;
+	left: 75%;
+	top: 42%;
+	font-size: 30px;
+	text-align: center;
+	background-color: orange;
+}
+
+#num0 {
+	position: fixed;
+	border: 1px solid #999;
+	height: 60px;
+	width: 100px;
+	left: 0%;
+	top: 78%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#dot {
+	position: fixed;
+	border: 1px solid #999;
+	height: 60px;
+	width: 100px;
+	left: 0%;
+	top: 78%;
+	left: 104px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#AC {
+	position: fixed;
+	border: 1px solid #999;
+	height: 60px;
+	width: 100px;
+	left: 0%;
+	top: 78%;
+	left: 208px;
+	font-size: 30px;
+	text-align: center;
+}
